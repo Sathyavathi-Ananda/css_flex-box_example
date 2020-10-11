@@ -1,0 +1,30 @@
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    border:1px solid red;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+    align-items:center;
+  }
+
+  li{
+    border: 1px solid black;
+     margin: 0.5em;
+     padding: 0.5em;
+
+
+  }
+
+  .flex1{
+    order:1;
+    border: 3px dotted red;
+    flex: 1 1 5em;
+  }
+  .flex2{
+    order:2;
+    border: 3px dotted blue;
+     flex: 2 2 5em;
+  }
